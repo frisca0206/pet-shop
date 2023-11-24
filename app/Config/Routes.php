@@ -46,3 +46,11 @@ $routes->get('/pet_sales/delete/(:num)', 'PetSalesController::delete/$1',['as' =
 $routes->get('/pet_sales/create', 'PetSalesController::create',['as' => 'pet_sales-create']);
 $routes->post('/pet_sales/store', 'PetSalesController::store',['as' => 'pet_sales-store']);
 $routes->post('/pe_sales/update', 'PetSalesController::update',['as' => 'pet_sales-update']);
+
+
+$routes->get('/pet_food', 'PetFoodController::index',['as' => 'pet_food']);
+$routes->get('/pet_food/edit/(:num)', 'PetFoodController::edit/$1',['as' => 'pet_food-edit']);
+$routes->get('/pet_food/delete/(:num)', 'PetFoodController::delete/$1',['as' => 'pet_food-delete']);
+$routes->get('/pet_food/create', 'PetFoodController::create',['as' => 'pet_food-create']);
+$routes->post('/pet_food/store', 'PetFoodController::store',['as' => 'pet_food-store']);
+$routes->post('/pet_food/update', 'PetFoodController::update',['as' => 'pet_food-update']);

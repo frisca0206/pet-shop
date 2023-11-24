@@ -12,5 +12,6 @@ class DatabaseSeeder extends Seeder
         $this->call('PetTableSeeder');
         $this->call('ConditionTableSeeder');
         $this->call('PetSalesTableSeeder');
+        $this->call('PetFoodTableSeeder');
     }
 }

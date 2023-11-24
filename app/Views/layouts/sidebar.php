@@ -46,6 +46,12 @@
                         <p> Pet Sales </P>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="<?= url_to('pet_food') ?>" class="nav-link">
+                        <i class="fas fa-paw nav-icon"></i>
+                        <p> Pet Food </P>
+                    </a>
+                </li>
             </ul>
             </li>
         </nav>
